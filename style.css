@@ -117,7 +117,7 @@ input,
   font-size: 18px;
   width: 226px;
 }
-li >    input[type="text"] {
+.task-list__item > .add-input {
   width: 226px;
 }
 .delete__img {
@@ -136,15 +136,15 @@ li >    input[type="text"] {
 }
 
 /* Edit Task */
-ul li input[type="text"] {
+.task-list__item .add-input {
   display: none;
 }
 
-.edit-mode input[type="text"] {
+.task-list__item.edit-mode  .add-input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label {
+.task-list__item.edit-mode  .task-list__label {
   display: none;
 }
